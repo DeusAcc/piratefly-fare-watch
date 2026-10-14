@@ -1,0 +1,34 @@
+name: 'PirateFly Fare Watch'
+description: 'Watch flight routes on a schedule and get a job summary or issue when a fare is in the cheap range of its own history.'
+author: 'PirateFly'
+branding:
+  icon: 'navigation'
+  color: 'blue'
+inputs:
+  routes:
+    description: 'One route per line, "Origin -> Destination" with city names, e.g. "Stockholm -> Rome".'
+    required: true
+  level:
+    description: 'Lowest verdict that counts as a deal: "great" (bottom 10% of the route's own history) or "good" (bottom 35%).'
+    required: false
+    default: 'good'
+  open-issue:
+    description: 'Open (or update) one issue per route when it becomes a deal. Needs "permissions: issues: write".'
+    required: false
+    default: 'false'
+  api-key:
+    description: 'Optional PirateFly Pro key (X-Api-Key). The free tier allows 30 route checks per day per IP.'
+    required: false
+    default: ''
+  github-token:
+    description: 'Token used to open issues.'
+    required: false
+    default: ${{ github.token }}
+outputs:
+  deals:
+    description: 'JSON array of routes currently in the deal range.'
+  count:
+    description: 'Number of routes in the deal range.'
+runs:
+  using: 'node20'
+  main: 'index.js'
