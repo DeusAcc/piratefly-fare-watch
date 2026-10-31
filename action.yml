@@ -9,7 +9,7 @@ inputs:
     description: 'One route per line, "Origin -> Destination" with city names, e.g. "Stockholm -> Rome".'
     required: true
   level:
-    description: 'Lowest verdict that counts as a deal: "great" (bottom 10% of the route's own history) or "good" (bottom 35%).'
+    description: 'Lowest verdict that counts as a deal: "great" (bottom 10% of the route''s own history) or "good" (bottom 35%).'
     required: false
     default: 'good'
   open-issue:
