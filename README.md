@@ -38,6 +38,12 @@ Example summary:
 | [Stockholm → Rome](https://piratefly.com/flights/stockholm-to-rome/?src=gh-action) | **good price** | €16 / €28 | 14 |
 | London → Edinburgh | typical price | €41 / €45 | 58 |
 
+## Fare history by departure city
+
+Not sure which routes to watch? Each page lists the cheapest destinations from that city right now, with the typical fare and the best booking window from the same price history the Action uses:
+
+[London](https://piratefly.com/flights/from-london/?src=gh-action) · [Paris](https://piratefly.com/flights/from-paris/?src=gh-action) · [Madrid](https://piratefly.com/flights/from-madrid/?src=gh-action) · [Barcelona](https://piratefly.com/flights/from-barcelona/?src=gh-action) · [Rome](https://piratefly.com/flights/from-rome/?src=gh-action) · [Milan](https://piratefly.com/flights/from-milan/?src=gh-action) · [Berlin](https://piratefly.com/flights/from-berlin/?src=gh-action) · [Munich](https://piratefly.com/flights/from-munich/?src=gh-action) · [Frankfurt](https://piratefly.com/flights/from-frankfurt/?src=gh-action) · [Hamburg](https://piratefly.com/flights/from-hamburg/?src=gh-action) · [Hannover](https://piratefly.com/flights/from-hannover/?src=gh-action) · [Stuttgart](https://piratefly.com/flights/from-stuttgart/?src=gh-action) · [Amsterdam](https://piratefly.com/flights/from-amsterdam/?src=gh-action) · [Brussels](https://piratefly.com/flights/from-brussels/?src=gh-action) · [Dublin](https://piratefly.com/flights/from-dublin/?src=gh-action) · [Lisbon](https://piratefly.com/flights/from-lisbon/?src=gh-action) · [Porto](https://piratefly.com/flights/from-porto/?src=gh-action) · [Vienna](https://piratefly.com/flights/from-vienna/?src=gh-action) · [Prague](https://piratefly.com/flights/from-prague/?src=gh-action) · [Budapest](https://piratefly.com/flights/from-budapest/?src=gh-action) · [Warsaw](https://piratefly.com/flights/from-warsaw/?src=gh-action) · [Bucharest](https://piratefly.com/flights/from-bucharest/?src=gh-action) · [Sofia](https://piratefly.com/flights/from-sofia/?src=gh-action) · [Athens](https://piratefly.com/flights/from-athens/?src=gh-action) · [Helsinki](https://piratefly.com/flights/from-helsinki/?src=gh-action)
+
 ## Inputs
 
 | Input | Default | |
