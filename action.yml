@@ -17,7 +17,7 @@ inputs:
     required: false
     default: 'false'
   api-key:
-    description: 'Optional PirateFly Pro key (X-Api-Key). The free tier allows 30 route checks per day per IP.'
+    description: 'Not used any more: PirateFly sells no API keys. The free API allows 30 route checks per day per IP.'
     required: false
     default: ''
   github-token:
