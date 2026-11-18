@@ -51,14 +51,14 @@ Not sure which routes to watch? Each page lists the cheapest destinations from t
 | `routes` | (required) | One `Origin -> Destination` per line, city names. |
 | `level` | `good` | `great` or `good`. |
 | `open-issue` | `false` | Open/update an issue per deal (needs `issues: write`). |
-| `api-key` | | PirateFly Pro key, pass it as a secret. |
+| `api-key` | | Not used any more (PirateFly sells no API keys). |
 
 Outputs: `deals` (JSON array) and `count`, to chain Slack, email or anything else.
 
 ## Limits
 
-Free: 30 route checks per day per IP, no signup. Watching many routes or running often? **Higher limits with [Pro](https://piratefly.com/api?src=gh-action)** ($12.99/month, no daily cap): `POST https://piratefly.com/v1/pro/checkout` with your email, then store the key as `PIRATEFLY_API_KEY` and add `api-key: ${{ secrets.PIRATEFLY_API_KEY }}`.
+Free: 30 route checks per day per IP, no signup. There is no paid plan. Every deal links to booking on Aviasales through PirateFly's affiliate link.
 
-Other ways in: [REST API](https://piratefly.com/api?src=gh-action) · [MCP server](https://piratefly.com/mcp-server?src=gh-action) · [open dataset](https://huggingface.co/datasets/DeusHorizon/flight-fare-history).
+Other ways in: [REST API](https://piratefly.com/api?src=gh-action) · [MCP server](https://piratefly.com/mcp-server?src=gh-action).
 
 MIT licensed.
