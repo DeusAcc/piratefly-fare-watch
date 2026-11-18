@@ -80,8 +80,8 @@ async function main() {
     '', '| Route | Verdict | Today / typical | Percentile |', '|---|---|---|---|', ...righe, '',
     ...deals.map((d) => `- ${d.riga} [History](${d.url})`),
     '', limitato
-      ? `> Free tier: 30 checks/day. Watching more routes? [Get a Pro key](${SITO}/api?src=gh-action) (POST /v1/pro/checkout) and pass it as \`api-key\`.`
-      : `> Data: [PirateFly](${SITO}/?src=gh-action) price history. Higher limits with [Pro](${SITO}/api?src=gh-action).`,
+      ? `> Free: 30 checks/day per IP. Prices by Aviasales/Travelpayouts; book through the links above.`
+      : `> Data: [PirateFly](${SITO}/?src=gh-action) price history. Prices by Aviasales/Travelpayouts.`,
     '',
   ].join('\n');
   scrivi(process.env.GITHUB_STEP_SUMMARY, md);
